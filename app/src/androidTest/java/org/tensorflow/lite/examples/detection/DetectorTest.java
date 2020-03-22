@@ -49,7 +49,7 @@ import org.tensorflow.lite.examples.detection.tflite.TFLiteObjectDetectionAPIMod
 public class DetectorTest {
 
   private static final int MODEL_INPUT_SIZE = 256;
-  private static final boolean IS_MODEL_QUANTIZED = false;
+  private static final boolean IS_MODEL_QUANTIZED = true;
   private static final String MODEL_FILE = "mask_rcnn_inception_v2_coco_256.tflite";
   private static final String LABELS_FILE = "file:///android_asset/labelmap.txt";
   private static final Size IMAGE_SIZE = new Size(640, 480);
